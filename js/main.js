@@ -1,4 +1,5 @@
 window.addEventListener("load", function() {
-    initGame();
-    
+    document.getElementById("button").addEventListener("click", function() {
+        initGame();
+    });
 });
